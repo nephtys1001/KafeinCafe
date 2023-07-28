@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+li a button{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    
+}
+body{
+    /*
+   background: url(./images/body_image.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   //if I decide to add background , I will use this pic
+   */
+   background-color: #efe5dc;
+   padding-bottom: 300px;
+   
+   
+
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    
+    
+   
+}
+
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    
+    
+
+}
+
+
+.nav-links li a:hover{
+ 
+    color: chocolate;
+    
+   
+    
+
+}
+
+
+.nav-links li a{
+  color: black;
+  font-weight: 500;
+  
+    
+
+}
+
+header .form-inline .form-input{
+
+    padding: 9px 25px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    background-color: whitesmoke;
+
+    
+
+    
+}
+
+
+
+header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateX(0px); /* Normal position */
+    }
+    50% {
+        transform: translateX(-20px); /* it moves */
+    }
+    100% {
+        transform: translateX(0px); /*  Normal position again */
+    }
+}
+
+header #box{
+   
+    padding: 20px;
+    transition: transform 0.5s;
+    
+}
+
+header #box:hover{
+   
+    animation: pulse 1s infinite;
+
+    
+   
+    
+}
+
+
+header #company-title{
+    align-items: center;
+    padding-left: 30px;
+
+   
+    
+}
+
+header #company-title:hover{
+    color: chocolate;
+    
+}
+
+header #counter{
+    position: absolute;
+    padding-top: 35px;
+    left: 1400px;
+    top: 0;
+}
+
+
+/*End Of Navbar*/ 
+
+.body-2 h1{
+    position: absolute;
+    top: 250px; 
+    left: 150px; 
+    font-size: 60px;
+   
+}
+
+.body-2 p{
+    position: absolute;
+    top: 430px;
+    left: 150px; 
+    font-size: 20px;
+    opacity: 0.8;
+   
+}
+
+.body-2 #price{
+    position: absolute;
+    top: 530px; 
+    left: 150px; 
+    font-size: 40px;
+    
+   
+}
+
+.body-2 img{
+    position: absolute;
+    top: 200px; 
+    left: 550px; 
+    
+    
+}
+
+
+
+.body-2 #sippy{
+    position: absolute;
+    top: 300px; 
+    left: 1020px; 
+    color: black;
+    font-weight: bold;
+    background-size: 100px;
+    
+    
+    
+}
+
+
+.body-2 #sippy1{
+    position: absolute;
+    top: 450px; 
+    left: 1020px; 
+    color: black;
+    font-weight: bold;
+    background-size: 100px;
+    
+    
+    
+}
+
+.body-2 #sippy2{
+    position: absolute;
+    top: 600px; 
+    left: 1020px; 
+    color: black;
+    font-weight: bold;
+    background-size: 100px;
+    
+    
+    
+}
+
+
+
+
+
+.body-2 #sippy-description{
+    position: absolute;
+    top: 350px;
+    left: 1025px; 
+    background-size: 100px;
+    font-size: 15px;
+    
+    
+    
+}
+
+
+
+
+.body-2 #sippy-description1{
+    position: absolute;
+    top: 500px; 
+    left: 1025px; 
+    background-size: 100px;
+    font-size: 15px;
+    
+    
+    
+}
+
+.body-2 #sippy-description2{
+    position: absolute;
+    top: 650px; 
+    left: 1025px; 
+    background-size: 100px;
+    font-size: 15px;
+    
+    
+    
+}
+
+.body-2 #button-buy {
+    position: absolute;
+    left: 135px;
+    top: 620px;
+    background-color: #1f2131;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    border: none;
+    font-size: 16px;
+
+    color: #efe5dc;
+}
+
+
+.body-2 #button-buy:hover {
+    background-color:rgb(159, 92, 10) ;
+    color: black;
+    
+   
+}
+
+
+/**/
+
+header .dropdown #dropdown-content {
+    display: none;
+    
+    
+    position: absolute;
+    background-color: bisque;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 300px;
+    width: 300px;
+    left: 1200px;
+    top: 110px;
+    padding: 20px;
+   
+    
+    
+    justify-content: space-between;
+}
+
+
+header .dropdown #dropdown-content a{
+    padding-left: 25px;
+    padding-top: 10px;
+    display: block;
+    color: black;
+}
+
+header .dropdown #dropdown-content span{
+    padding-left: 20px;
+    display: inline-block;
+    color: black;
+}
+
+
+header .dropdown #dropdown-content #midnight img{
+    
+    position: absolute;
+    top: 25px;
+}
+
+
+header .dropdown #dropdown-content h1{
+    
+    position: absolute;
+    top: 150px;
+    
+}
+
+header .dropdown #dropdown-content #button-total-buy{
+
+    position: absolute;
+
+    right: 60px;
+    top: 230px;
+
+
+    background-color: #1f2131;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    border: none;
+    font-size: 16px;
+
+    color: #efe5dc;
+    
+  /*dur bi*/
+    
+    
+}
+
+
+header .dropdown #dropdown-content #button-total-buy:hover{
+
+    background-color:rgb(159, 92, 10) ;
+    color: black;
+    
+  /*dur bi*/
+    
+    
+}
+
+
+
+/***********  RESPONSİVE TASARIM *************/ 
+
+@media (max-width:760px){
+    nav {
+        flex-direction: column; /* Dikey yönde hizala */
+        align-items: center; /* Dikeyde merkezle */
+        display: none;
+    }
+    #img{
+        position: absolute;
+        left: 250px;
+       
+    }
+    .form-input{
+        position: relative;
+        top: 1000px;
+        display: none;
+        
+    }
+    #box{
+        position: absolute;
+        left: 150px;
+    }
+    header #counter{
+        color: blue;
+        position: absolute;
+        left: 185px;
+    }
+    header .dropdown #dropdown-content {
+        display: none;
+        
+        
+        position: absolute;
+        background-color: bisque;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        height: 300px;
+        width: 300px;
+        left: 50px;
+        top: 170px;
+        padding: 20px;
+       
+        
+        
+        
+    }
+    
+    .body-2 h1{
+        position: absolute;
+        left: 40px;
+        top: 500px;
+    }
+
+    .body-2 #mid-text{
+        position: absolute;
+        left: 40px;
+        top: 700px;
+    }
+
+    .body-2 #price{
+        position: absolute;
+        left: 40px;
+        top: 800px;
+    }
+
+
+
+    .body-2 #button-buy{
+        position: absolute;
+        left: 40px;
+        top: 900px;
+    }
+
+    header #company-title{
+        position: absolute;
+        left: 0px;
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    .body-2 #mid-coffee{
+        position: absolute;
+        top: 280px;
+        left: 80px;
+        width: 50%;
+        z-index: -1;
+    }
+
+    .body-2 #sippy,#sippy1,#sippy2,#sippy-description,#sippy-description1,#sippy-description2{
+        display: none;
+    }
+
+    
+
+
+    
+}
